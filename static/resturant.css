@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: rgb(97, 164, 142);
+    color: rgb(129, 82, 12);
+    text-align: center;
+    padding: 10px;
+}
+li{
+    display: inline;
+    cursor:pointer;
+}
+li:hover{
+    color: black;
+}
+
+.receipe{
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.box{
+    display: inline-block;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    height: 400px;
+    width: 300px;
+    margin-left: 10px;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+.order{
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+.order:hover{
+    background-color: rgb(149, 206, 62);
+}
+.contact{
+    background-color:rgb(97, 164, 142);
+    text-align: center;
+    padding: 20px;
+    color: rgb(55, 34, 2) ;
+}
+.table{
+    text-align: center;
+    margin-left: 40%;
+}
+td{
+    width: 75px;
+    padding: 5px;
+}
+.one{
+    padding: 5px;
+}
+.send{
+    width: 500px;
+    background-color: yellowgreen;
+    padding: 5px;
+}
